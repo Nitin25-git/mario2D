@@ -34,13 +34,13 @@ let playerconfig={
 }
 
 function preload() {
-    this.load.image("ground","assests/topground1.jpg");
+    this.load.image("ground","topground1.jpg");
 //    this.load.image("sky","background.jpg");
-    this.load.spritesheet("dude1","assests/dude1.png",{frameWidth:56,frameHeight:85});
-    this.load.spritesheet("dude2","assests/dude2.png",{frameWidth:56,frameHeight:85});
+    this.load.spritesheet("dude1","dude1.png",{frameWidth:56,frameHeight:85});
+    this.load.spritesheet("dude2","dude2.png",{frameWidth:56,frameHeight:85});
 
-    this.load.image("apple","assests/apple.png");
-    this.load.spritesheet("sun","assests/sun1.png",{frameWidth:196,frameHeight:196});
+    this.load.image("apple","apple.png");
+    this.load.spritesheet("sun","sun1.png",{frameWidth:196,frameHeight:196});
 }
 
 function create() {
