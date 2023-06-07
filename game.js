@@ -74,7 +74,7 @@ function create() {
     this.anims.create({
         key:'right',
         frames:this.anims.generateFrameNumbers('dude1',{start:1,end:6}),
-        frameRate:0.1,
+        frameRate:10,
         repeat:-1,
     });
     this.anims.create({
